@@ -1,11 +1,9 @@
-//declarationvariable
-var age;
-age = 25
-var name;
+var age = prompt("how old are yopu?")
 
-name = "helle"
+if (age > 18) {
+    console.log("you are an adult")
+}else{
+    console.log("you are a child")
+}
 
-console.log(name)
 
-var firstname = "toto"
-console.log(firstname)
