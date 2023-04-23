@@ -28,9 +28,21 @@ while (index < 21) {
     console.log("5 x " + i + " = " + 5 * i);
 }*/
 
-let i = 0
+/*let i = 0
 
 while (i < 11) {
     console.log("6 * i = " + 6 * 1);
-}
+}*/
 
+/*let say_thanks = () => {
+    console.log("merci");
+}
+say_thanks();*/
+
+
+/*et table_m = () => {
+    for ( let i = 0; i < 11; i++) {
+        console.log(`5 * ${i} = ${5*i}`);
+    };
+};
+table_m()*/
