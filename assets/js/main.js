@@ -54,7 +54,7 @@ table_m()*/
 }
 Table()*/
 
-let Table = (N, L) => {
+/*let Table = (N, L) => {
    // console.log("nombre : " + N);
     //console.log("limite : " + L);
     if (!(L && typeof (L) === "number")) {
@@ -68,4 +68,12 @@ let Table = (N, L) => {
         console.log("the params must be a number");
     }
    
+}*/
+
+let carré = (N) => {
+    if (N && typeof (N) === "number") {
+      return N *N;
+    }else{
+        return null;
+    }
 }
