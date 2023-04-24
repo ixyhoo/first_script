@@ -79,7 +79,7 @@ Table()*/
 }*/
 
 //let car = new Object()
-let car = {
+/*let car = {
 _id : 123312,
 name : "Bmw",
 year : 2015,
@@ -87,3 +87,31 @@ color : "red",
 
 }
 
+let car2 = {...car, _id: 1222, name: "Audi"}*/
+
+let person = {
+    firstname: "toto",
+    lastname: "sam",
+    username : "fly",
+    email: "fly@fly.com",
+    phone: "0650140215",
+    address: {
+        street: "10 rue de la paix",
+        code: 76000,
+        country: "china"
+    },
+    fullname: function () {
+       return this.firstname + " " + this.lastname
+    },
+    hello: function () {
+        return "hello, welcome " + this.fullname()
+    }
+};
+
+let person2 = {...person, firstname: "titi"};
+
+let saw_helle = ({firstname}) => {
+    console.log(`hello ${firstname}`);
+};
+
+let newPerson = person
