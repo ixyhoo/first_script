@@ -47,3 +47,25 @@ say_thanks();*/
 };
 table_m()*/
 
+/*function Table() {
+     for ( let i = 0; i < 11; i++) {
+        console.log(`5 * ${i} = ${5*i}`);
+    };
+}
+Table()*/
+
+let Table = (N, L) => {
+   // console.log("nombre : " + N);
+    //console.log("limite : " + L);
+    if (!(L && typeof (L) === "number")) {
+        let L = 10
+    }
+    if (N && typeof(N)=== "number") {
+         for ( let i = 0; i < L; i++) {
+        console.log(`${N} * ${i} = ${N*i}`);
+    };
+    }else {
+        console.log("the params must be a number");
+    }
+   
+}
