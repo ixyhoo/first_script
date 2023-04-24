@@ -70,10 +70,20 @@ Table()*/
    
 }*/
 
-let carré = (N) => {
+/*let carré = (N) => {
     if (N && typeof (N) === "number") {
       return N *N;
     }else{
         return null;
     }
+}*/
+
+//let car = new Object()
+let car = {
+_id : 123312,
+name : "Bmw",
+year : 2015,
+color : "red",
+
 }
+
