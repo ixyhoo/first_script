@@ -122,3 +122,5 @@ let newPerson = person*/
 let input = document.getElementsByTagName("input");
 
 let body = document.getElementsByTagName("body");
+
+let section = document.querySelector("#css");
