@@ -116,3 +116,4 @@ let saw_helle = ({firstname}) => {
 
 let newPerson = person*/
 
+let html = document.getElementById("html");
