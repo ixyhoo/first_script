@@ -118,4 +118,5 @@ let newPerson = person*/
 
 //let html = document.getElementById("html");
 
-let section = document.getElementsByClassName("section");
+//let section = document.getElementsByClassName("section");
+
