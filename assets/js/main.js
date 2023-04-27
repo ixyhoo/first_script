@@ -89,7 +89,7 @@ color : "red",
 
 let car2 = {...car, _id: 1222, name: "Audi"}*/
 
-let person = {
+/*let person = {
     firstname: "toto",
     lastname: "sam",
     username : "fly",
@@ -114,4 +114,5 @@ let saw_helle = ({firstname}) => {
     console.log(`hello ${firstname}`);
 };
 
-let newPerson = person
+let newPerson = person*/
+
