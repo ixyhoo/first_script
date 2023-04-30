@@ -125,4 +125,11 @@ let body = document.getElementsByTagName("body");
 
 let section = document.querySelector("#css");*/
 
-let formLine = document.querySelector(".form-line");
+//let formLine = document.querySelector(".form-line");
+
+/*let article = document.querySelectorAll("article")[0];
+let body = document.querySelector("body");
+article.innerHTML = "<h2>fly</h2>";
+
+body.style.background = "black";
+body.style.color = "white";*/
