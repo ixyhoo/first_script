@@ -119,8 +119,10 @@ let newPerson = person*/
 //let html = document.getElementById("html");
 
 //let section = document.getElementsByClassName("section");
-let input = document.getElementsByTagName("input");
+/*let input = document.getElementsByTagName("input");
 
 let body = document.getElementsByTagName("body");
 
-let section = document.querySelector("#css");
+let section = document.querySelector("#css");*/
+
+let formLine = document.querySelector(".form-line");
