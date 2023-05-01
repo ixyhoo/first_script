@@ -133,10 +133,6 @@ article.innerHTML = "<h2>fly</h2>";
 
 body.style.background = "black";
 body.style.color = "white";*/
-
-let h2 = document.querySelector("section#html h2");
-
-h2.addEventListener("dblclick", () => {
-    window.alert("fly!")
-    console.log("click");
-});
+window.onload = () => {
+    setupListeners();
+}
