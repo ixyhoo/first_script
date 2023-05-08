@@ -133,6 +133,17 @@ article.innerHTML = "<h2>fly</h2>";
 
 body.style.background = "black";
 body.style.color = "white";*/
-window.onload = () => {
+/*window.onload = () => {
     setupListeners();
-} 
+}*/
+
+let ol = document.createElement("ol")
+for (let index = 1; index < 9; index++){
+    let li = document.createElement("li")
+    li.style.color = "yellow"
+    li.innerHTML = "Element JavaScript n°" + index
+    ol.appendChild(li)
+ 
+}
+document.getElementById("app").appendChild(ol)
+
