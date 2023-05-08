@@ -135,4 +135,4 @@ body.style.background = "black";
 body.style.color = "white";*/
 window.onload = () => {
     setupListeners();
-}
+} 
